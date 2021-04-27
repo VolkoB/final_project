@@ -21,10 +21,10 @@ function Header(props) {
             
             
                 <div className='header-menu'>
-                    <li>Menu1</li>
-                    <li>Menu1</li> 
-                    <li>Menu1</li> 
-                    <li>Menu1</li> 
+                    <li className='header-menu__item'>HOME</li>
+                    <li className='header-menu__item'>SHOP</li> 
+                    <li className='header-menu__item'>ABOUT</li> 
+                    <li className='header-menu__item'>CONTACT</li> 
                 </div>
             </div>
             
