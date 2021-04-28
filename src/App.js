@@ -2,11 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/header';
 import Footer from './components/Footer/footer';
+import Main from './components/Main/main'
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Header/>
       
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -41,7 +42,8 @@ function App() {
         <p>jjjj</p>
 
       </header> 
-      <Footer></Footer>
+      <Main/>
+      <Footer/>
     </div>
   );
 }

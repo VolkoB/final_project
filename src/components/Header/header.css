@@ -73,6 +73,7 @@ p {
     position: relative;
     border: transparent;
     margin-left: 45px;
+    cursor: pointer;
 }
 .header-button__login::before {
     content: "";
@@ -92,4 +93,5 @@ p {
     position: relative;
     margin-left: 10px;
     border: transparent;
+    cursor: pointer;
 }
