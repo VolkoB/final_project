@@ -5,27 +5,23 @@ function Header(props) {
     return (
         <header className='header'>
             <div className='container'>
-            <div className='header-logo__image'>
-                <svg preserveAspectRatio="xMidYMid meet" data-bbox="73.5 60 53 80" viewBox="73.5 60 53 80" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="img">
-                    <g>
-                        <path d="M95.1 74l-21.6 32h9.4l21.6-32h-9.4z"></path>
-                        <path d="M108 69c2.5 0 4.5-2 4.5-4.5s-2-4.5-4.5-4.5-4.5 2-4.5 4.5 2 4.5 4.5 4.5"></path>
-                        <path d="M112.2 74l-34.7 52h9.3l34.7-52h-9.3z"></path>
-                        <path d="M117.1 94l-21.6 32h9.4l21.6-32h-9.4z"></path>
-                        <path d="M92 140c2.5 0 4.5-2 4.5-4.5s-2-4.5-4.5-4.5-4.5 2-4.5 4.5 2 4.5 4.5 4.5"></path>
-                    </g>
-                </svg>
-            </div>
+                <a href='#home'>       
+                        <h2 className='header-logo__name'>Cielo Apparel</h2>
+                        </a> 
+                <nav className='header-menu'>
+                    <a href='#home' className='header-menu__item'>HOME</a>
+                    <a href='#shop' className='header-menu__item'>SHOP</a> 
+                    <a href='#about' className='header-menu__item'>ABOUT</a> 
+                    <a href='#contact' className='header-menu__item'>CONTACT</a> 
+                </nav>
 
-              <h2 className='header-logo__name'>Cielo Apparel</h2>
-            
-            
-                <div className='header-menu'>
-                    <li className='header-menu__item'>HOME</li>
-                    <li className='header-menu__item'>SHOP</li> 
-                    <li className='header-menu__item'>ABOUT</li> 
-                    <li className='header-menu__item'>CONTACT</li> 
-                </div>
+                <button className='header-button__login'>
+                    Login
+                </button>
+                
+                <button className='header-button__cart'>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 329.7 134.5" data-hook="svg-icon-6"><path class="ex_uq" d="M281.6 3c35.7 10.7 56 47.6 45.2 83.3s-47.6 56-83.3 45.2c-35.7-10.7-56-47.6-45.2-83.3C209 13.1 245.9-7.2 281.6 3z"></path><text x="265" y="69" dy=".35em" text-anchor="middle" class="_2u__n" data-hook="items-count">0</text><path d="M74.1 134.4c-8.7 0-16.2-7.4-16.2-16.2S65.3 102 74.1 102s16.2 7.4 16.2 16.2-7.4 16.2-16.2 16.2zm0-21.7c-3.1 0-5.6 2.5-5.6 5.6s2.5 5.6 5.6 5.6 5.6-2.5 5.6-5.6-2.5-5.6-5.6-5.6zM120.5 134.5c-8.7 0-16.2-7.4-16.2-16.2s7.4-16.2 16.2-16.2 16.2 7.4 16.2 16.2-7.4 16.2-16.2 16.2zm0-21.7c-3.1 0-5.6 2.5-5.6 5.6s2.5 5.6 5.6 5.6c3.1 0 5.6-2.5 5.6-5.6s-2.5-5.6-5.6-5.6z"></path><path d="M141.2 92.1L53.5 92.1 23 10.6 0 10.6 0 0 30.4 0 61.2 81.6 133.5 81.6 152.4 30.4 38.5 30.4 34.8 19.9 167.9 19.9z"></path></svg>
+                </button>
             </div>
             
         </header>
