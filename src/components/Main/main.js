@@ -1,13 +1,14 @@
 import React from 'react';
 import './main.css';
+import MainVideo from '../../../src/images/file.mp4'
 
 function Main() {
     return (
         <main className='main'>
             <div className='container'>
-                {/* <img src='./images/file.mp4'></img>  */}
-                <img src="./images/ea26fd_8c104192d964488b8ab4c8ab031223f8f000.jpg"></img> 
-               
+
+                {/* <img src={MainVideo} alt=''/>    */}
+                <video  autoPlay muted loop src={MainVideo} type="video/mp4"/>
             </div>
                 
         </main>
