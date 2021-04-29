@@ -11,3 +11,31 @@ p {
     padding: 0;
     text-decoration: none;
 }
+
+.tiles {
+  
+    display: flex;
+    flex-flow: row wrap;
+}   
+.tile {
+      
+      background: white;
+      margin: 10px;
+      width: calc( (100% / 3) - 20px );
+      padding: 10px;
+      height: 610px;
+      object-fit: cover;
+    }
+    
+    .feature {
+      
+      width: calc( ( ( 100% / 3 ) * 2) - 20px );
+      
+    }
+
+    .latest-heading{
+        text-align: center;
+        font-size: 48px;
+    }
+    
+  
