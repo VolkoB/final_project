@@ -28,7 +28,7 @@ function Main() {
                     </div>
                    
                 </div>
-                {/* <h2 className='latest-heading'>LATEST ARRIVALS</h2> */}
+                <h2 className='latest-heading'>LATEST ARRIVALS</h2>
             </div>
                 
         </main>
