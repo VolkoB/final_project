@@ -29,6 +29,7 @@ function Main() {
                    
                 </div>
                 <h2 className='latest-heading'>LATEST ARRIVALS</h2>
+                <div>GITHUB TEST</div>
             </div>
                 
         </main>
