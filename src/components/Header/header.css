@@ -19,14 +19,15 @@ p {
     background: white;
     width: 100%;
     min-width: 600px;
+    padding: 20px 20px;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 20px 20px;
+   
+    
 }
 
 .header-brand {

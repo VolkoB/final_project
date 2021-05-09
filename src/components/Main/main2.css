@@ -12,9 +12,14 @@ p {
   text-decoration: none;
 }
 
+.main {
+  margin-top: 80px;
+}
+
 .tiles {
   display: flex;
   flex-flow: row wrap;
+  object-fit: cover;
 }
 .tiles .tile {
   display: flex;
@@ -25,10 +30,10 @@ p {
   height: 610px;
   width: calc( (100% / 3) - 10px);
   overflow: hidden;
-  column-fill: auto;
 }
 .tiles .feature {
   width: calc( ( ( 100% / 3 ) * 2) - 10px );
+  height: auto;
 }
 
 .latest-heading {
