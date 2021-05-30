@@ -1,5 +1,5 @@
 import React from 'react';
-import './main2.css';
+import './main2.scss';
 import MainVideo from '../../../src/images/file.mp4'
 import CieloImage from '../../../src/images/TheCieloStory.webp'
 import CollectionImage from '../../../src/images/ViewOurCollections.webp'
