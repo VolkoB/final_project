@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from 'react-dom'
 import "./main2.scss";
 import MainVideo from "../../../src/images/file.mp4";
 import CieloImage from "../../../src/images/TheCieloStory.webp";

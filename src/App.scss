@@ -11,4 +11,25 @@ p {
   margin: 0;
   padding: 0;
   text-decoration: none;
+
 }
+
+a {
+  color:#3d3c3c;
+  text-decoration:none
+  }
+  
+  a:active {
+  color:#555555;
+  text-decoration:none
+  }
+  
+  a:visited {
+  color:#1a1919;
+  text-decoration:none
+  }
+  
+  a:hover {
+  color:#393a39;
+  text-decoration: none
+  }
