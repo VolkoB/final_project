@@ -18,6 +18,19 @@
   height: 610px;
   width: calc((100% / 3) - 10px);
   overflow: hidden;
+  
+  &-text{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    top		: 200px;
+	  left		: 0;
+  	width		: 100%;
+    margin: auto;
+    font-size: 25px;
+    color: white;
+  }
 }
 
 .feature {
@@ -44,7 +57,7 @@
   
   width: calc(((100% / 4)) - 20px);
   margin-left: 10px;
-  position: relative;
+  
   background: transparent;
   display: flex;
   justify-content: center;

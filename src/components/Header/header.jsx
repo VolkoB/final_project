@@ -4,7 +4,8 @@ import './header.scss';
 function Header(props) {
     return (
         <header className='header'>
-            <div className='discount'>Get 15% OFF - Use Coupon Code CIELO</div>
+            <div className='discount'>Get 15% OFF - Use Coupon Code CIELO<hr className="underline"/></div>
+            
             <div className='container'>
                 <a href='#home'>       
                         <h2 className='header-logo__name'>Cielo Apparel</h2>

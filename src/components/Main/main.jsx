@@ -23,13 +23,16 @@ function Main() {
                         <video autoPlay muted loop src={MainVideo} type="video/mp4" />
                     </div>
                     <div className="tile">
-                        <img src={CieloImage} alt="" />
+                        <img src={CieloImage} alt="The Cielo Story" />
+                        <a href="#" className="tile__text">The Cielo Story</a>
                     </div>
                     <div className="tile">
-                        <img src={CollectionImage} alt="" />
+                        <img src={CollectionImage} alt="View Our Collection" />
+                        <a href="#" className="tile__text">View Our Collection</a>
                     </div>
                     <div className="tile">
-                        <img src={JoinImage} alt="" />
+                        <img src={JoinImage} alt="Join Our Community" />
+                        <a href="#" className="tile__text">Join Our Community</a>
                     </div>
                 </div>
 
